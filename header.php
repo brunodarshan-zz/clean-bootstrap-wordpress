@@ -19,8 +19,6 @@
                   <?php bloginfo('name'); ?>
                 <?php endif; ?></a>
             </div>
-
-            <div class="pull-right">
             <!-- Collect the nav links, forms, and other content for toggling -->
             <?php
        wp_nav_menu( array(
@@ -30,13 +28,13 @@
            'container'         => 'div',
            'container_class'   => 'collapse navbar-collapse',
            'container_id'      => 'bs-example-navbar-collapse-1',
-           'menu_class'        => 'nav navbar-nav',
+           'menu_class'        => 'nav navbar-nav navbar-right',
            'fallback_cb'       => 'WP_Bootstrap_Navwalker::fallback',
            'walker'            => new WP_Bootstrap_Navwalker())
        );
    ?>
 
-   </div>
+  
         </div>
         <!-- /.container-fluid -->
     </nav>
