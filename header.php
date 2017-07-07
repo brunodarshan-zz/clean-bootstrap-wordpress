@@ -1,12 +1,22 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <?php
+    global $wp;
+    $current = home_url(add_query_arg(array(),$wp->request));
+     ?>
     <meta charset="utf-8">
+    <meta property="og:title" content="<?php wp_title(); ?>" />
+    <meta property="og:site_name" content="<?php bloginfo('name'); ?>" />
+    <meta property="og:url" content="<?php echo $current_url; ?>" />
     <title><?php bloginfo('name'); ?></title>
+
     <link href='https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
-
-    <?php wp_head(); ?>
+    <?php wp_head();
+    global $wp;
+    $current_url = home_url(add_query_arg(array(),$wp->request));
+    ?>
   </head>
   <body>
     <nav  class="navbar navbar-default navbar-custom navbar-fixed-top">
@@ -37,7 +47,7 @@
        );
    ?>
 
-  
+
         </div>
         <!-- /.container-fluid -->
     </nav>

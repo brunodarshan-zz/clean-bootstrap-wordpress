@@ -6,7 +6,6 @@
           <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
               <div class="post-preview">
                 <?php if (is_home()): ?>
-
                   <a href=" <?php the_permalink();?>">
                       <h2 class="post-title">
                           <?php the_title(); ?>
@@ -17,11 +16,18 @@
                   </a>
                 <?php else: ?>
                   <?php the_content(); ?>
+                  <script type="text/javascript">
+                    var info-<?php ID(); ?> = {
+                      "title":"<?php the_title() ;?>",
+                      "image":"<?php (has_post_thumbnail()) ? the_post_thumbnail() : header_image() ;?>",
+                    }
+                  </script>
                 <?php endif; ?>
                   <p class="post-meta">Postado por <a href="#"><?php the_author(); ?></a> </p>
               </div>
               <hr>
             </div>
+
         <?php endwhile; ?>
 </div>
 <?php endif; ?>
