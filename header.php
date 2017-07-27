@@ -1,14 +1,8 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <?php
-    global $wp;
-    $current = home_url(add_query_arg(array(),$wp->request));
-     ?>
+
     <meta charset="utf-8">
-    <meta property="og:title" content="<?php wp_title(); ?>" />
-    <meta property="og:site_name" content="<?php bloginfo('name'); ?>" />
-    <meta property="og:url" content="<?php echo $current_url; ?>" />
     <title><?php bloginfo('name'); ?></title>
 
     <link href='https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
@@ -70,8 +64,6 @@
            'walker'            => new WP_Bootstrap_Navwalker())
        );
    ?>
-
-
         </div>
         <!-- /.container-fluid -->
     </nav>
