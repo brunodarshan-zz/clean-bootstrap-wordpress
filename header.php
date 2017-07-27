@@ -19,7 +19,18 @@
     ?>
   </head>
   <body>
-    <nav  class="navbar navbar-default navbar-custom navbar-fixed-top">
+    <?php function set_src_image(){
+     if (is_home()): ?>
+        <?php header_image(); ?>
+      <?php else: ?>
+        <?php if (has_post_thumbnail()): ?>
+          <?php echo get_the_post_thumbnail_url(); ?>
+        <?php else: ?>
+            <?php header_image(); ?>
+        <?php endif; ?>
+      <?php endif;
+    } ?>
+    <nav  class="navbar navbar-default navbar-custom">
         <div class="container">
             <!-- Brand and toggle get grouped for better mobile display -->
             <div class="navbar-header page-scroll">

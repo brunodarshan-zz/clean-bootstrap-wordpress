@@ -1,15 +1,5 @@
 <?php get_header(); ?>
-<?php function set_src_image(){
- if (is_home()): ?>
-    <?php header_image(); ?>
-  <?php else: ?>
-    <?php if (has_post_thumbnail()): ?>
-      <?php echo get_the_post_thumbnail_url(); ?>
-    <?php else: ?>
-        <?php header_image(); ?>
-    <?php endif; ?>
-  <?php endif;
-} ?>
+
 <header class="intro-header" style="background-image: url('<?php  set_src_image();?>');">
     <div class="container">
         <div class="row">
