@@ -16,5 +16,6 @@ function dequeue_jquery_migrate( &$scripts){
   wp_enqueue_script('jquery', get_template_directory_uri()."/vendor/jquery/jquery.min.js");
   wp_enqueue_script('bootstrap', get_template_directory_uri()."/vendor/bootstrap/js/bootstrap.min.js");
   wp_enqueue_script('clean-blog', get_template_directory_uri()."/js/clean-blog.min.js");
+  wp_enqueue_script('font-awesome', "http://fontawesome.io/assets/font-awesome/css/font-awesome.css");
 
 }
