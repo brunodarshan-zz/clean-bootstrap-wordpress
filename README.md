@@ -8,5 +8,5 @@ You can see and download this template [here](https://startbootstrap.com/templat
 
 For install this theme in your blog Wordpress just download this ZIP repository or clone into the
 
-// /wp-content/themes/ // in your wordpress directory.
+```/wp-content/themes/``` in your wordpress directory.
 
