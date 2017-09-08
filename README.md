@@ -21,9 +21,9 @@ For install this theme in your blog Wordpress just download this ZIP repository 
 
 Degree in System Analysis and Development and Web Designer.
 
-[_Facebook_: Darshan Bruno](https://www.facebook.com/brunodarshan)
-Email: __brunodarshan@gmail.com__
-Linkdin: [__Bruno Darshan__](https://www.linkedin.com/in/bruno-darshan-84a523b8/)
+- Facebook: [__Darshan Bruno__](https://www.facebook.com/brunodarshan)
+- Email: __brunodarshan@gmail.com__
+- Linkdin: [__Bruno Darshan__](https://www.linkedin.com/in/bruno-darshan-84a523b8/)
 
 ## Copyright
 
