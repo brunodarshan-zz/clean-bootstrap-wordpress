@@ -10,3 +10,6 @@ For install this theme in your blog Wordpress just download this ZIP repository 
 
 ```/wp-content/themes/``` in your wordpress directory.
 
+## Screenshot
+
+[Screenshot](https://github.com/brunodarshan/clean-bootstrap-wordpress/blob/master/screenshot.png)
