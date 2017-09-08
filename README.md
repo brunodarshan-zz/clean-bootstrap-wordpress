@@ -12,4 +12,4 @@ For install this theme in your blog Wordpress just download this ZIP repository 
 
 ## Screenshot
 
-[Screenshot](https://github.com/brunodarshan/clean-bootstrap-wordpress/blob/master/screenshot.png)
+![Screenshot](https://github.com/brunodarshan/clean-bootstrap-wordpress/blob/master/screenshot.png)
